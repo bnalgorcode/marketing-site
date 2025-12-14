@@ -9,7 +9,7 @@ const WorkList = () => {
     <>
       {/* <!-- ===== Recent Projects Start ===== --> */}
       <section id="work" className="py-8 lg:py-12 xl:py-14">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-6 py-4 md:py-10 xl:px-0">
+        <div className="mx-25 max-w-c-1315 px-4 md:px-6 py-4 md:py-10 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{

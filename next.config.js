@@ -24,6 +24,11 @@ const nextConfig = {
         hostname: "cursor.sh",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "github.githubassets.com",
+        port: "",
+      },
     ],
   },
 };

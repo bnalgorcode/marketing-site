@@ -23,11 +23,19 @@ const brandData: Brand[] = [
     imageLight: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
   },
   {
-    id: 0.5,
-    name: "DigitalOcean",
-    href: "https://www.digitalocean.com",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
-    imageLight: "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
+    id: 0.7,
+    name: "OpenAI",
+    href: "https://www.openai.com",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    imageLight: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+  },
+  
+  {
+    id: 0.4,
+    name: "GitHub",
+    href: "https://www.github.com",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    imageLight: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
   },
   {
     id: 0.6,
@@ -37,14 +45,12 @@ const brandData: Brand[] = [
     imageLight: "https://cursor.sh/favicon.svg",
   },
   {
-    id: 0.7,
-    name: "OpenAI",
-    href: "https://www.openai.com",
-    image: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-    imageLight: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    id: 0.5,
+    name: "DigitalOcean",
+    href: "https://www.digitalocean.com",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
+    imageLight: "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
   },
-
-
 ];
 
 export default brandData;

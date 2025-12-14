@@ -35,7 +35,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         />
         <Image
           className={`hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block ${
-            name === "Amazon" ? "dark:invert" : ""
+            name === "Amazon" || name === "GitHub" ? "dark:invert" : ""
           }`}
           src={imageLight}
           alt={name}
