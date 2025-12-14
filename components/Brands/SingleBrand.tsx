@@ -11,7 +11,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
       <motion.a
         variants={{
           hidden: {
-            opacity: 0,
+            opacity: 1,
             y: -20,
           },
 
@@ -28,13 +28,15 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         className="animate_top mx-w-full relative block h-10 w-[98px]"
       >
         <Image
-          className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+          className="opacity-80 transition-all duration-300 hover:opacity-100 dark:hidden"
           src={image}
           alt={name}
           fill
         />
         <Image
-          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+          className={`hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block ${
+            name === "Amazon" ? "dark:invert" : ""
+          }`}
           src={imageLight}
           alt={name}
           fill

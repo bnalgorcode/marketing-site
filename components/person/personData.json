@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Martin Lotz",
+    "role": "Chief Technical Officer (CTO)",
+    "additionalInfo": "Sebastian Chadel, ML Engineer",
+    "image": "/images/person/001.png"
+  },
+  {
+    "id": 2,
+    "name": "Sebastian Chadel",
+    "role": "AI / ML Engineer",
+    "additionalInfo": "",
+    "image": "/images/person/001.png"
+  },
+  {
+    "id": 3,
+    "name": "",
+    "role": "Backend developer",
+    "additionalInfo": "",
+    "image": "/images/person/001.png"
+  },
+  {
+    "id": 4,
+    "name": "Masaki Nakamura",
+    "role": "Web Developer",
+    "additionalInfo": "",
+    "image": "/images/person/001.png"
+  },
+  {
+    "id": 5,
+    "name": "Jackson Lee",
+    "role": "No-Code & Automation Developer",
+    "additionalInfo": "",
+    "image": "/images/person/001.png"
+  }
+]
+

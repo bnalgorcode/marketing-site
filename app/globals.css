@@ -148,7 +148,7 @@
 }
 
 @layer utilities {
-  @media (max-width: 1280px) {
+  @media (max-width: 1400px) {
     .navbar {
       @apply max-h-[400px] overflow-y-scroll;
     }
@@ -222,4 +222,10 @@ pre {
 
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
+}
+@layer utilities {
+  .container-padding {
+    @apply px-4 md:px-6 py-4 md:py-10 xl:px-0;
+    /* Or whatever padding values you want */
+  }
 }

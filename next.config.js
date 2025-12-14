@@ -14,6 +14,16 @@ const nextConfig = {
         hostname: "localhost",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "cursor.sh",
+        port: "",
+      },
     ],
   },
 };

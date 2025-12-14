@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Yamada's Recipe",
+        "description": "A recipe sharing platform for Yamada's family",
+        "image": "/images/projects/001.png"
+    },
+    {
+        "id": 2,
+        "title": "Mobile App for Yamada's Family",
+        "description": "A mobile app for Yamada's family to share recipes and family memories",
+        "image": "/images/projects/003.webp"
+    },
+    {
+        "id": 3,
+        "title": "Web Application for Yamada's Family",
+        "description": "A web application for Yamada's family to share recipes and family memories",
+        "image": "/images/projects/004.png"
+    }
+]
