@@ -102,7 +102,10 @@ const Approach = () => {
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   Process
                 </span>{" "}
-                Our Project Methodology
+                <span className="font-medium uppercase text-xl md:text-2xl mb-5 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent">
+                How to approach
+                </span>
+                
               </span>
               <h2 className="relative mb-6 text-3xl text-black dark:text-white xl:text-hero">
                 From Analysis to {" "}
@@ -203,16 +206,11 @@ const Approach = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <h4 className="font-medium uppercase text-black dark:text-white">
-                How We Implement
-              </h4>
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Our Development {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Workflow
-                </span>
-              </h2>
-              <p className="mb-7.5">
+              <h4 className="font-medium uppercase text-xl md:text-2xl mb-5 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent">
+                    How We Implement
+            </h4>
+            
+              <p className="mb-7.5 mt-5">
                 We follow an iterative and collaborative approach that ensures
                 transparency, quality, and timely delivery. Our workflow is
                 designed to adapt to changing requirements while maintaining
